@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- CSS styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet"> <!-- Google Fonts -->
     <title>Contact App</title>
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html" class="title">Contacts</a>
+    <div class="navbar"> <!-- All elements in the navigation bar -->
+        <a href="index.html" class="title">Contacts</a> 
         <a href="new_contact.html" class="menu_items">Create New Contact +</a>
         <a class="menu_items">Show Favourites</a>
     </div>
-    <div class="main">
-        <div class="contact_info">
+    <div class="main"> <!-- Main content of the page -->
+        <div class="contact_info"> <!-- Contact information that needs to be inputed -->
             <form>
                 <input class="pfp" type="image" src="imgs/pfp.png">
                 <input type="text" class="text_box" name="fname" placeholder="Contact Name">
@@ -22,7 +22,7 @@
                 <input type="text" class="text_box" name="fname" placeholder="Address">
                 <input type="text" class="text_box" name="lname" placeholder="Email">
             </form> 
-            <div class="finish_contact">
+            <div class="finish_contact"> <!-- Buttons to save or cancel the new contact -->
                 <button class="save">Save Contact</button>
                 <button class="cancel">Cancel</button>
             </div>
